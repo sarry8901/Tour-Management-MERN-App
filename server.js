@@ -9,6 +9,7 @@ import authRoute from './routes/auth.js'
 import reviewRoute from './routes/reviews.js'
 import bookingRoute from './routes/booking.js'
 import path from 'path';
+import {fileURLToPath} from 'url'
 
 dotenv.config();
 const app = express();
