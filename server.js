@@ -3,11 +3,11 @@ import dotenv from "dotenv";
 import mongoose from "mongoose";
 import cors from "cors";
 import cookieParser from "cookie-parser";
-import tourRoute from '../backend/routes/tours.js'
-import userRoute from '../backend/routes/users.js'
-import authRoute from '../backend/routes/auth.js'
-import reviewRoute from '../backend/routes/reviews.js'
-import bookingRoute from '../backend/routes/booking.js'
+import tourRoute from './routes/tours.js'
+import userRoute from './routes/users.js'
+import authRoute from './routes/auth.js'
+import reviewRoute from './routes/reviews.js'
+import bookingRoute from './routes/booking.js'
 import path from 'path';
 
 dotenv.config();
